@@ -8,10 +8,14 @@ namespace FoodDelivery.Customer.Api.Controller
     public class LocationController : ControllerBase
     {
         //create a method which is used to search the location based on pin code
-    //    [HttpGet]
-    //    public ActionResult SearchLocation([FromQuery] int pincode)
-    //    {
-    //        return 
-    //    }
+        [HttpGet]
+        public ActionResult SearchLocation([FromQuery] int pincode)
+        {
+            return Ok();
+        }
+        //git changes
+        //push
+        //fetch
+        //pull
     }
 }
